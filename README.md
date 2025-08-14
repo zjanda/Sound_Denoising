@@ -1,14 +1,14 @@
-# 🎵 Sound Denoising with Deep Learning
+# Sound Denoising with Deep Learning
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## �� Overview
+## Overview
 
 Advanced audio denoising system using U-Net architecture with PyTorch. This project demonstrates state-of-the-art techniques for removing noise from audio recordings while preserving audio quality.
 
-## ✨ Features
+## Features
 
 - **U-Net Architecture**: Custom AudioUNet implementation for audio processing
 - **Multiple Loss Functions**: SI-SDR, RMS gain, and custom loss combinations
@@ -16,28 +16,28 @@ Advanced audio denoising system using U-Net architecture with PyTorch. This proj
 - **K-Fold Validation**: Robust model evaluation with cross-validation
 - **Real-time Processing**: Live audio denoising capabilities
 
-## 🏗️ Architecture
+## Architecture
 
 - **Encoder**: 4-layer convolutional network with increasing channels (64→512)
 - **Decoder**: 4-layer deconvolutional network with skip connections
 - **Normalization**: GroupNorm for stable training
 - **Activation**: ReLU with dropout for regularization
 
-## 📊 Results
+## Results
 
 - **Training Loss**: [Your metrics here]
 - **Validation Loss**: [Your metrics here]
 - **Audio Quality**: [PESQ/STOI scores if available]
 
-## ��️ Installation
+## Installation
 
 ```bash
-git clone https://github.com/yourusername/Sound_Denoising.git
+git clone https://github.com/zjanda/Sound_Denoising.git
 cd Sound_Denoising
 pip install -r requirements.txt
 ```
 
-## 📖 Usage
+## Usage
 
 ### Basic Training
 ```python
@@ -56,17 +56,17 @@ denoiser = LiveDenoiser()
 denoiser.start()
 ```
 
-## �� Testing
+## Testing
 
 ```bash
 pytest tests/
 ```
 
-## �� Documentation
+## Documentation
 
 See [docs/](docs/) for detailed documentation.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -74,11 +74,11 @@ See [docs/](docs/) for detailed documentation.
 4. Add tests
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## �� Acknowledgments
+## Acknowledgments
 
 - VoiceBank-DEMAND dataset
 - PyTorch community
