@@ -37,7 +37,7 @@ Model AudioUNet_v2() performance: 0.786563, progress: 0.273745
 ## Installation
 
 ```bash
-git clone https://github.com/zjanda/Sound_Denoising.git
+git clone https://github.com/zjanda/Sound-Denoising.git
 cd Sound_Denoising
 pip install -r requirements.txt
 ```
