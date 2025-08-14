@@ -48,19 +48,8 @@ model = AudioUNet_v1()
 train_model(model, train_loader, val_loader, epochs=100)
 ```
 
-### Live Denoising
-```python
-from src.demonstrative.live_sound_visualizer import LiveDenoiser
-
-denoiser = LiveDenoiser()
-denoiser.start()
-```
-
 ## Testing
-
-```bash
-pytest tests/
-```
+TODO: Write tests
 
 ## Documentation
 
