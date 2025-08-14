@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DenoisePractice: Deep Learning for Speech Denoising"
+authors:
+  - family-names: "DenoisePractice Authors"
+    given-names: ""
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+date-released: 2024-06-01
+version: "1.0.0"
+license: "MIT"
+repository-code: "https://github.com/zjanda/Sound-Denoising"
+keywords:
+  - speech enhancement
+  - denoising
+  - deep learning
+  - audio
+  - torchaudio
+  - VoiceBank-DEMAND
+type: software
+abstract: "DenoisePractice is a deep learning toolkit for speech denoising, featuring data loaders, preprocessing, and training helpers for the VoiceBank-DEMAND dataset."
+contact:
+  - email: "your.email@example.com"
+references:
+  - type: dataset
+    title: "Noisy speech database for training speech enhancement algorithms and TTS models"
+    authors:
+      - family-names: "Valentini-Botinhao"
+        given-names: "C."
+    year: 2017
+    url: "https://datashare.ed.ac.uk/handle/10283/2791"

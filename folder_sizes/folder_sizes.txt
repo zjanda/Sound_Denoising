@@ -1,0 +1,12 @@
+Folder: txtfiles, Size: 0.65 MB
+Folder: clean_testset_wav, Size: 189.73 MB
+Folder: clean_trainset_28spk_wav, Size: 3095.74 MB
+Folder: clean_trainset_56spk_wav, Size: 6273.33 MB
+Folder: __MACOSX, Size: 7.17 MB
+Folder: noisy_testset_wav, Size: 189.73 MB
+Folder: noisy_trainset_28spk_wav, Size: 3095.74 MB
+Folder: noisy_trainset_56spk_wav, Size: 6273.33 MB
+Folder: testset_txt, Size: 0.03 MB
+Folder: trainset_28spk_txt, Size: 0.45 MB
+Folder: trainset_56spk_txt, Size: 0.86 MB
+Folder: zipfiles, Size: 15314.88 MB
