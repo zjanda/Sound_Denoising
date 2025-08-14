@@ -7,5 +7,7 @@
 			"path": "D:/clean_noisy_sound_dataset"
 		}
 	],
-    "settings": {}
+    "settings": {
+        "markdown.validate.enabled": true
+    }
 }

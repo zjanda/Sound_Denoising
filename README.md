@@ -23,11 +23,16 @@ Advanced audio denoising system using U-Net architecture with PyTorch. This proj
 - **Normalization**: GroupNorm for stable training
 - **Activation**: ReLU with dropout for regularization
 
-## Results
+## Results per model
+Training/Validation Loss:
+Model AudioUNet_v1() Best Validation Loss: 0.1136 at epoch 6
+Model AudioUNet_v2() Best Validation Loss: 0.1601 at epoch 4
 
-- **Training Loss**: [Your metrics here]
-- **Validation Loss**: [Your metrics here]
-- **Audio Quality**: [PESQ/STOI scores if available]
+SI_SDRi/Custom performance metric
+Model AudioUNet_v1() SI-SDRi: -5.10 dB
+Model AudioUNet_v1() performance: 1.006414, progress: 0.369844
+Model AudioUNet_v2() SI-SDRi: -35.31 dB
+Model AudioUNet_v2() performance: 0.786563, progress: 0.273745
 
 ## Installation
 
@@ -51,9 +56,6 @@ train_model(model, train_loader, val_loader, epochs=100)
 ## Testing
 TODO: Write tests
 
-## Documentation
-
-See [docs/](docs/) for detailed documentation.
 
 ## Contributing
 
